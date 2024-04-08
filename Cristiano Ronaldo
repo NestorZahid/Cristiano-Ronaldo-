@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cristiano Ronaldo</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Cristiano Ronaldo</h1>
+        <img src="cristiano.jpg" alt="Cristiano Ronaldo">
+    </header>
+    <section>
+        <h2>Biografía</h2>
+        <p>Inserta aquí la biografía de Cristiano Ronaldo.</p>
+    </section>
+    <section>
+        <h2>Fotos</h2>
+        <div class="gallery">
+            <img src="foto1.jpg" alt="Foto 1">
+            <img src="foto2.jpg" alt="Foto 2">
+            <!-- Agrega más fotos aquí -->
+        </div>
+    </section>
+    <footer>
+        <p>&copy; 2024 Cristiano Ronaldo Fan Club</p>
+    </footer>
+</body>
+</html>body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+header img {
+    width: 200px;
+    height: auto;
+    border-radius: 50%;
+    margin-top: 20px;
+}
+
+section {
+    padding: 20px;
+}
+
+h2 {
+    color: #333;
+}
+
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-gap: 20px;
+}
+
+.gallery img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
